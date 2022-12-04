@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Comment Video</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</head>
+
+<style>
+
+    @keyframes change-background {
+        0% {
+            background:#FF9999;}
+        75% {
+            background:#FFCC99;}
+        75% {
+            background:#FFFF99;}
+        75% {
+            background:#CCFF99;}
+        75% {
+            background:#99FF99;}
+        75% {
+            background:#99FFCC;}
+        75% {
+            background:#99FFFF;}
+        75% {
+            background:#99CCFF;}
+        75% {
+            background:#9999FF;}
+        75% {
+            background:#FF99FF;}
+        100% {
+            background:#FF99CC;}
+    }
+    body {
+        animation:change-background 10s ease infinite;
+    }
+
+</style>
+
+<body>
+<center>
+            <table border="0">
+		<tr>
+		<td>
+                <h2 class="text-center">
+                    Оставь отзыв о видео
+                </h2>
+   		</td></tr>
+		<tr><td>
+	
+	     <iframe width="400vw" height="300vw" src="https://www.youtube.com/embed/uCNWuSbPnt4" title="САМЫЕ РАЙСКИЕ МЕСТА НА ЗЕМЛЕ ВИДЕО 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+		</tr></td>
+		<tr><td>
+                <div id="comment-field"></div>
+           
+
+                    <form>
+                            <div class="form-group">
+                              <label for="comment-name">Ваше имя:</label>
+                              <input type="email" class="form-control" id="comment-name"  placeholder="Введите имя пользователя">
+                            </div>
+                            <div class="form-group">
+                              <label for="comment-body">Комментарий:</label>
+                              <textarea type="password" class="form-control" id="comment-body" placeholder="Введите ваш комментарий"></textarea>
+                            </div>
+                            <div class="form-group form-check text-right">
+                                    <button type="submit" id="comment-add" class="btn btn-primary">Отправить комментарий</button>
+                            </div>
+                          </form>
+		</tr></td>
+		</table>
+  </center> 
+  
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+
+</body>
+</html>
